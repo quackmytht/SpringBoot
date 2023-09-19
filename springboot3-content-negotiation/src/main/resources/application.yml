@@ -1,0 +1,9 @@
+spring:
+  mvc:
+    contentnegotiation:
+      # 开启基于请求参数的内容协商功能
+      favor-parameter: true
+      # 修改内容协商使用的参数名。默认是format
+      parameter-name: type
+      media-types:
+        yaml: application/yaml
